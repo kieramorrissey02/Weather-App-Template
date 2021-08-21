@@ -1,0 +1,192 @@
+html {
+	height:1700px;
+	width:900px;
+}
+
+body {
+	height:1700px;
+	width:900px;
+}
+
+hr {
+	opacity:0.7;
+}
+
+#container {
+	height:1700px;
+	width:800px;
+	position:relative;
+	top: 60%;
+    left:75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#background-image {
+	height:1700px;
+	width:800px;
+	border-radius:20px;
+	box-shadow:20px 20px 20px  gray;
+	position:relative;
+	top:850px;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+#section-one {
+	height:1800px;
+	width:800px;
+	position:relative;
+	bottom:780px;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading {
+	position:relative;
+	top:4%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+	color:white;
+}
+
+#heading-two {
+	position:relative;
+	top:4%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+	font-size:70px;
+	color:white;
+}
+
+#box-one {
+	/*height:200px;
+	width:200px;*/
+	position:relative;
+	background:pink;
+	width:200px;
+	top:40px;
+     left:400px;
+	/*left:50%;*/
+}
+
+@media (min-width:100px){
+	#box-one {
+    position:relative;
+	top:0.2px;
+	left:236.5px;
+	}
+}
+
+#textbox {
+	height:70px;
+	width:698px;
+}
+
+@media (min-width:100px){
+	#textbox {
+		position:relative;
+		bottom:5px;
+	}
+}
+
+
+#table {
+	position:relative;
+	bottom:20px;
+	font-size:25px;
+}
+
+tr, td{
+	padding:5px;
+}
+
+td{
+	width:20px;
+}
+
+th {
+	width:0px;
+	height:0px;
+}
+#navbar-container {
+	width:800px;
+}
+
+#navbar{
+	overflow-y:hidden;
+	overflow-x:scroll;
+}
+
+#section-one{
+	border-spacing:10px;
+}
+
+h1, h2, td, p{
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	color:white;
+}
+
+.lighter {
+	opacity:0.7;
+	font-size:20px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.weekday {
+	font-size:25px;
+}
+
+.figures {
+	font-size:25px;
+} 
+
+#section-two{
+	position:relative;
+	bottom:40px;
+}
+
+#lastsection{
+	position:relative;
+	bottom:30px;
+}
+
+#lastsection td{
+	width:60px;
+}
+
+#secondsection td{
+	width:35px;
+}
+
+#firstsection{
+	width:798px;
+}
+
+#firstsection td{
+	width:20px;
+}
+
+#sunset{
+	width:64px;
+	height:64px;
+	position:relative;
+	bottom:15px;
+}
+
+nav::-webkit-scrollbar {
+	width:12px;                            /*width of the entire scrollbar*/
+}
+
+nav::-webkit-scrollbar-track {
+	background-color:#f2f2ff;                /*color of the tracking area*/
+}
+
+nav::-webkit-scrollbar-thumb {
+	background-color:#add1e0;                 /*color of the scroll thumb*/
+	border-radius:20px;                    /*roundness of the scroll thumb*/
+	border:3px solid #f2f2ff;                /*creates padding around scroll thumb*/
+}

@@ -1,0 +1,119 @@
+html{
+	height:1300px;
+	position:relative;
+}
+
+body{
+	background: rgb(20,18,56);
+    background: linear-gradient(45deg, rgba(20,18,56,1) 0%, rgba(9,9,121,1) 24%, rgba(45,67,204,1) 48%, rgba(117,207,226,1) 73%);
+}
+.container{
+	height:100%;
+	width:97vw;
+	position:absolute;
+}
+
+.box{
+	height:133px;
+	width:800px;
+	display:block;
+	position:relative;
+	top:20%;
+	left:50%;
+	bottom:20%;
+	transform: translate(-50%, -50%);
+}
+
+#cloud{
+	width:100%;
+	height:133px;
+	position:relative;
+	bottom:135px;
+	border-radius:20px;
+}
+
+#sun {
+	height:133px;
+	width:100%;
+	/*z-index:-1;*/
+	position:relative;
+	bottom:159px;
+	border-radius:20px;
+}
+
+#thunder {
+	height:133px;
+	width:100%;
+	position:relative;
+	bottom:135px;
+	border-radius:20px;
+}
+
+#rainy {
+	height:133px;
+	width:100%;
+	position:relative;
+	bottom:135px;
+	border-radius:20px;
+}
+
+
+.size {
+	font-size:45px;
+}
+
+
+td {
+	width:230px;
+	height:50px;
+}
+
+table {
+	height:100px;
+	z-index:1;
+}
+
+.degrees {
+	color:white;
+	font-size:40px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	
+}
+
+.font {
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	color:white;
+	position:relative;
+	bottom:5px;
+	
+}
+
+.times {
+	font-family: 'Roboto', sans-serif;
+	font-size:23px;
+	color:white;
+	position:relative;
+	top:5px;
+	
+}
+
+#suntwo{
+	height:133px;
+	width:100%;
+	position:relative;
+	bottom:135px;
+	border-radius:20px;
+	margin-bottom:0px;
+}
+
+.align{
+	position:relative;
+	bottom:15px;
+	left:20px;
+}
+
+#link{
+	text-decoration:none;
+}
